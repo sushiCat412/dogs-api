@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dogs API</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div id="title-container">
+      <h1>Dog Breed Searcher</h1>
+    </div>
+    <div id="controls">
+      <input type="search" list="dog-breeds" id="breed-input" />
+      <button id="search-button">search</button>
+    </div>
+    <datalist id="dog-breeds"></datalist>
+    <h1 id="message"></h1>
+    <div id="gallery"></div>
+  </body>
+  <script src="app.js"></script>
+</html>
